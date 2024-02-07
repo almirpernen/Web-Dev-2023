@@ -1,0 +1,159 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .main {
+            width: 100%;
+            height: 93%;
+        }
+
+        .content {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            height: 85%;
+            margin-right: 32px;
+        }
+
+        .box {
+            border: solid 1px #d8d8d8;
+            margin-bottom: 10px;
+            padding: 10px 0 10px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .box1 {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+        .box img {
+            width: 180px;
+            height: auto;
+            margin-right: 0px;
+            margin-top: 30px;
+        }
+
+        input {
+            width: 100%;
+            border-radius: 3px;
+            padding: 12px 7px 12px 7px;
+            margin-top: 7px;
+            border-style: solid;
+            border-color: gainsboro;
+            background-color: #fafafa;
+            font-size: 12px;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #949494;
+        }
+
+        ::placeholder {
+            color: #a39a98;
+        }
+
+        button {
+            background-color: #4cb5f9;
+            border-radius: 7px;
+            color: white;
+            border: none;
+            font-weight: 600;
+            font-size: 14px;
+            padding: 7px;
+            width: 100%;
+            margin: 10px 0 10px 0;
+        }
+
+        hr {
+            width: 40%;
+            height: 1px;
+            background-color: #c6c4c4;
+        }
+
+        footer {
+            bottom: 0;
+            color: #949494;
+            text-align: center;
+            font-size: small;
+        }
+
+        span {
+            margin: 0 5px 0 5px;
+        }
+
+        span:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="content">
+            <img src="img/img.png">
+            <div class="registration" style="display: flex; flex-direction: column;">
+                <div class="box box1">
+                    <img src="https://www.vectorlogo.zone/logos/instagram/instagram-wordmark.svg">
+                    <br>
+                    <input type="text" id="email" placeholder="Телефон, имя пользователя или эл. адрес">
+                    <input type="password" id="password" placeholder="Пароль">
+                    <button>Войти</button>
+                    <div style="width: 100%; display: flex; flex-direction: row; margin-top: 5px; margin-bottom: 10px;">
+                        <hr>
+                        <p style="margin:0 3px 0 3px; font-size: small; color: #949494; font-weight: bold;">ИЛИ</p>
+                        <hr>
+                    </div>
+                    <div
+                        style="width: 100%; display: flex; flex-direction: row; align-items: center; justify-content: center; ">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/800px-Facebook_icon_2013.svg.png"
+                            style="width: 15px; height: 15px; margin: 0 5px 0 5px;">
+                        <p style="color: #515285; font-size: 14px; font-weight: 800;">Войти через Facebook</p>
+                    </div>
+                    <a style="color: #615f6a; font-size: 12px; margin-bottom: 15px; margin-top:10px;">Забыли пароль?</a>
+
+                </div>
+                <div class="box">
+                    <p style="font-size: 14px; margin: 15px;">У вас ещё нет аккаунта?
+                        <span style="color: #1395f6; font-weight: bold;">Зарегестрироваться</span>
+                    </p>
+                </div>
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <p style="margin: auto; font-size: 14px; margin: 10px 0  10px 0;">Установите приложение</p>
+
+
+                    <img src="img/apps.png" style="width: 250px; height: auto; margin: auto;">
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p><span>Meta</span> <span>Информация</span> <span>Блог</span> <span>Вакансии</span> <span>Помощь</span>
+            <span>API</span> <span>Конфиденциальность</span> <span>Meta Verified</span> <span>Условия</span>
+            <span>Места</span> <span>Instagram Lite</span>
+        </p>
+        <br>
+        <p><span>Русский</span>
+            © 2024 Instagram from Meta</p>
+        <br><br>
+
+    </footer>
+</body>
+
+</html>
