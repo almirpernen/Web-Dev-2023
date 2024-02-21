@@ -1,0 +1,72 @@
+:host {
+  padding: 50px 0;
+}
+
+p {
+  margin: 0;
+}
+
+.products {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.products-item {
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 320px;
+  margin-right: 40px;
+}
+
+.products-item:nth-child(4) {
+  margin-right: 0;
+}
+
+hr {
+  width: 250px;
+  border-top: none;
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+.products-item:nth-child(8) {
+  margin-right: 0;
+}
+
+.products-item img {
+  max-height: 300px;
+}
+
+.products-item h3 {
+  margin: 15px;
+  margin-bottom: 0;
+  font-size: 22px;
+  height: 55px;
+}
+
+.products-item button {
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+}
+.products-item button:active {
+  transform: scale(0.9);
+  transition-duration: 0.2s;
+}
+
+.products-item__price {
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/

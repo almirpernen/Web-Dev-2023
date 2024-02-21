@@ -1,0 +1,32 @@
+<div class="products">
+  <div class="products-item" *ngFor="let product of products">
+    <div>
+      <img [src]="product.img" />
+    </div>
+    <hr />
+    <h3>
+      <a
+        [href]="product.link"
+        [title]="product.name + 'details'"
+        target="_blank"
+      >
+        {{ product.name }}
+      </a>
+    </h3>
+    <p *ngIf="product.description">{{ product.description }}</p>
+    <p
+      *ngIf="product.rating"
+      [innerHTML]="'Raiting of the product is : ' + product.rating"
+    ></p>
+    <p class="products-item__price">{{ product.price }} ₸</p>
+    <button type="button" (click)="share(product)">Share</button>
+    <!-- <app-product-alerts [product]="product" (notify)="onNotify()">
+    </app-product-alerts> -->
+  </div>
+</div>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
