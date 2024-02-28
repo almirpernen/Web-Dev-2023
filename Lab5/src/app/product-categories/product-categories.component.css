@@ -1,0 +1,24 @@
+.conteiner{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.category{
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 3%;
+    background-color: #fff;
+    box-shadow:0 0 4px rgb(99, 179, 229);
+    margin-left: 25px;
+    margin-top: 10px;
+    width:300px;
+    display: block;
+    text-align: center;
+    font-size: large;
+}
+img {
+    width: 90%;
+    height: 90%;
+}

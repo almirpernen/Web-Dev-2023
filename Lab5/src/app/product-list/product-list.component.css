@@ -1,0 +1,63 @@
+
+  .image-gallery img {
+    width: 60%;
+    height: auto;
+    height: 150px;
+    padding: 0 30px;
+    text-align: center;
+    justify-content:center;
+  }
+  .gg{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .product{
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 2%;
+    background-color: #fff;
+    box-shadow:0 0 4px rgb(99, 179, 229);
+    margin-left: 25px;
+    margin-top: 10px;
+    width:300px;
+    display: block;
+    text-align: center;
+  }
+
+  span button{
+    background-color: #fff;
+    padding-left: 75%;
+    margin-top: -5%;
+    margin-bottom: -5%;
+    font-size: medium;
+    font-weight: 600;
+  }
+
+  .image-gallery button {
+    background-color: #fff;
+    color: #212529;
+    border: none;
+    color:rgb(21, 0, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 0.5px; 
+    content:initial ;
+    padding: 10px;
+  }
+
+  .removeButton{
+    background-color: red;
+    margin-top: 10%;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+
+  }
+  
+  a {
+    margin-right: 10px;
+  }
