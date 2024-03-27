@@ -10,11 +10,13 @@ import { AlbumsService } from '../_services/albums.service';
 })
 export class AlbumPhotosComponent implements OnInit {
   albumPhotos: AlbumPhoto[];
+  albumId: number = 0;
+
 
   constructor(private route: ActivatedRoute, private albumsService: AlbumsService) {
     this.albumPhotos = [];
   }
-  
+
   ngOnInit(): void {
     const routeParams = this.route.snapshot.paramMap;
     const albumIdFromRoute = Number(routeParams.get('id'));

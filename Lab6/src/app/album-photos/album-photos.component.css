@@ -1,20 +1,25 @@
 .photo-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    grid-gap: 20px; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
   }
-  
+
   .photo-details {
     border: 1px solid #ccc;
     padding: 10px;
   }
-  
+button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
   .photo-details p {
     margin: 0;
   }
-  
+
   .photo-details img {
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
   }
-  
