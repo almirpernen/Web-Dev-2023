@@ -1,0 +1,15 @@
+<ul class="company-list">
+    <li *ngFor="let company of companies">
+        <div class="company-info">
+            <h3 (click)="navigateToCompanyVacancies(company.id)">{{ company.name }}</h3>
+            <div class="action-buttons">
+                <button class="edit-button" (click)="editCompany(company.id)">Edit</button>
+                <button class="delete-button" (click)="deleteCompany(company.id)">Delete</button>
+            </div>
+            <p class="description">{{ company.description }}</p>
+            <p class="address">{{ company.address }}</p>
+        </div>
+    </li>
+</ul>
+
+<button class="create-button" (click)="navigateToAddCompany()">Create Company</button>

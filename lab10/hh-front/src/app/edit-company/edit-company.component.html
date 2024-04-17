@@ -1,0 +1,16 @@
+<form (submit)="updateCompany()">
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" [(ngModel)]="company.name">
+    </div>
+    <div>
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" [(ngModel)]="company.description"></textarea>
+    </div>
+    <div>
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" [(ngModel)]="company.city">
+    </div>
+    <button type="submit">Update Company</button>
+  </form>
+  

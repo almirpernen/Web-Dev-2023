@@ -1,0 +1,71 @@
+/* Styling for company list */
+.company-list {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+}
+
+/* Styling for company list item */
+.company-list li {
+  margin-bottom: 20px; /* Add margin between each company item */
+}
+
+/* Styling for company information */
+.company-info {
+  border: 1px solid #ccc; /* Add border around company information */
+  padding: 10px; /* Add padding inside company information */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  position: relative; /* Make the container position-relative */
+}
+
+/* Styling for company name */
+.company-info h3 {
+  margin: 0; /* Remove margin */
+  font-size: 20px; /* Set font size */
+  color: #333; /* Set font color */
+}
+
+/* Styling for action buttons */
+.action-buttons {
+  position: absolute; /* Position the buttons absolutely */
+  top: 10px; /* Adjust top position */
+  right: 10px; /* Adjust right position */
+}
+
+/* Styling for edit and delete buttons */
+.delete-button {
+  margin-left: 10px; /* Add margin between buttons */
+  padding: 5px 10px; /* Add padding */
+  background-color: #ff0000; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 3px; /* Add border radius for rounded corners */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.edit-button {
+  margin-left: 10px; /* Add margin between buttons */
+  padding: 5px 10px; /* Add padding */
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 3px; /* Add border radius for rounded corners */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.create-button {
+  margin-left: 10px; /* Add margin between buttons */
+  padding: 5px 10px; /* Add padding */
+  background-color: #01861b; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 3px; /* Add border radius for rounded corners */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.edit-button:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}
+
+.delete-button:hover {
+  background-color: #b30101;
+}

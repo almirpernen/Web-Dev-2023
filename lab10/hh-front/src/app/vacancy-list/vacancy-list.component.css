@@ -1,0 +1,35 @@
+/* vacancy-list.component.css */
+
+/* Style for the list of vacancies */
+.vacancy-list {
+    padding: 20px;
+  }
+  
+  /* Style for the vacancy items */
+  .vacancy-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for the vacancy title */
+  .vacancy-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style for the vacancy description */
+  .vacancy-description {
+    margin-top: 5px;
+    color: #666;
+  }
+  
+  /* Style for the vacancy salary */
+  .vacancy-salary {
+    margin-top: 5px;
+    color: #555;
+  }
+  

@@ -1,0 +1,20 @@
+<form (submit)="createCompany()">
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" [(ngModel)]="newCompany.name" required>
+    </div>
+    <div>
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" [(ngModel)]="newCompany.description" required></textarea>
+    </div>
+    <div>
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" [(ngModel)]="newCompany.city" required>
+    </div>
+    <div>
+      <label for="city">Adress:</label>
+      <input type="text" id="address" name="adress" [(ngModel)]="newCompany.address" required>
+    </div>
+    <button type="submit">Create Company</button>
+  </form>
+  

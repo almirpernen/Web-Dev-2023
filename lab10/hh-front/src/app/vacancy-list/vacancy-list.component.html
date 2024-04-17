@@ -1,0 +1,16 @@
+<!-- vacancy-list.component.html -->
+
+<div class="vacancy-list">
+    <div *ngIf="vacancies.length > 0; else noVacancies">
+      <h2>Vacancies</h2>
+      <div class="vacancy-item" *ngFor="let vacancy of vacancies">
+        <h3 class="vacancy-title">{{ vacancy.name }}</h3>
+        <p class="vacancy-description">Description: {{ vacancy.description }}</p>
+        <p class="vacancy-salary">Salary: {{ vacancy.salary }}</p>
+      </div>
+    </div>
+    <ng-template #noVacancies>
+      <p>No vacancies available.</p>
+    </ng-template>
+  </div>
+  

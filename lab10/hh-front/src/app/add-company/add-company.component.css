@@ -1,0 +1,42 @@
+/* Styling for form container */
+form {
+    max-width: 400px; /* Set maximum width for better readability */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+  }
+  
+  /* Styling for form inputs */
+  form label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Add margin below labels */
+  }
+  
+  form input[type="text"],
+  form textarea {
+    width: 100%; /* Set input width to 100% of parent */
+    padding: 8px; /* Add padding */
+    margin-bottom: 10px; /* Add margin below inputs */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 3px; /* Add border radius for rounded corners */
+  }
+  
+  form textarea {
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  /* Styling for submit button */
+  form button[type="submit"] {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 3px; /* Add border radius for rounded corners */
+    padding: 10px 20px; /* Add padding */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  
